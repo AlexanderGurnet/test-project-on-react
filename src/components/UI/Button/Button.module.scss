@@ -1,0 +1,22 @@
+.button {
+  padding: 0.4rem 0.6rem;
+  font-size: 1rem;
+  color: white;
+  background-color: #4B51EF;
+  border-radius: 0.4rem;
+  border: none;
+  cursor: pointer;
+
+  &:active {
+    background-color: #807f7f;
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+    background-color: #afafaf;
+  }
+}
+
+.submit {
+  background-color: #52CF4F;
+}

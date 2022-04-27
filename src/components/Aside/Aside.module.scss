@@ -1,0 +1,38 @@
+.aside {
+  min-height: 100vh;
+  min-width: 13rem;
+  background-color: #bdbdbd;
+
+  p {
+    margin: 0 0 1rem 0;
+    font-size: 0.9rem;
+  }
+
+  button {
+    margin-bottom: 1rem;
+  }
+
+  @media screen and (max-width: 600px) {
+    margin: 0;
+    min-height: fit-content;
+  }
+}
+
+.container {
+  position: fixed;
+  width: 13rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 2rem;
+  
+  @media screen and (max-width: 600px) {
+    position: static;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}
+

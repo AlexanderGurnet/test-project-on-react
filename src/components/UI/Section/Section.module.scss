@@ -1,0 +1,10 @@
+.section {
+  margin: 2rem;
+  width: 100%;
+  box-sizing: border-box;
+  
+  @media screen and (max-width: 600px) {
+    margin: 0;
+    padding: 1rem;
+  }
+}

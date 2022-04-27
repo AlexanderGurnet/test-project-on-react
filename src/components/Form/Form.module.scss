@@ -1,0 +1,17 @@
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  margin-bottom: 1rem;
+
+  input:invalid {
+    border-color: red;
+  }
+}
+
+.button {
+  width: fit-content;
+  align-self: flex-end;
+}
